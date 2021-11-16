@@ -1,0 +1,31 @@
+.rating{
+  background-color: $lightGrayishCyan7E2;
+  &__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.list-rating {
+  @extend %reset-list;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(247px, 1fr));
+  grid-gap: 38px;
+}
+
+.item-rating {
+  text-align: center;
+  &__head {
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-size: 40px;
+    color: $darkCyan;
+  }
+
+  &__descr {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+}
+

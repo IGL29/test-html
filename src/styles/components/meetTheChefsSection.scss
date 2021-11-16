@@ -1,0 +1,88 @@
+.meet-the-chefs {
+  &__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  &__title {
+    margin-bottom: 70px;
+  }
+}
+
+.chefs-list {
+  @extend %reset-list;
+
+  &__chef:not(:last-of-type) {
+    margin-bottom: 60px;
+  }
+}
+
+.chef {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-column-gap: 25px;
+
+  &__subtitle {
+    grid-column: 1;
+    grid-row: 1;
+
+    &--right {
+      grid-column: 2;
+    }
+  }
+
+  &__descr {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 490px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.4;
+
+    &--right {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
+
+  &__img {
+    grid-column: 2;
+    grid-row: 1/-1;
+
+    &--left {
+      grid-column: 1;
+    }
+  }
+}
+
+.food-list {
+  @extend %reset-list;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+
+  &__item {
+    &--order-1 {
+      order: 1;
+    }
+
+    &--order-2 {
+      order: 2;
+    }
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 24px;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

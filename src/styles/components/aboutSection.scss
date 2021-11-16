@@ -1,0 +1,30 @@
+.about {
+  &__container {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  &__background {
+    flex: 1 1 48%;
+    min-height: 442px;
+    margin-right: 96px;
+    background-image: url("img/image-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__wrap-content {
+    flex: 0 1 43%;
+  }
+}
+
+.wrap-content {
+  padding: 20px 4px;
+  &__text {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+}

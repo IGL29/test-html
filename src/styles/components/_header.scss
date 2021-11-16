@@ -1,0 +1,23 @@
+.header {
+  background-color: $darkModerateCyan;
+
+  &__container {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.wrap-buttons {
+  &__button {
+    @extend %reset-link;
+    min-width: 246px;
+    background-color: $softRed;
+    border-radius: 4px;
+    &:not(:last-of-type) {
+      margin-right: 20px;
+    }
+  }
+}

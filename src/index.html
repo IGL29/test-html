@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Cooks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" class="body">
+  @include("./partials/header.html")
+
+  <main class="main">
+    <h1 class="visually-hidden">Home Cooks</h1>
+
+    @include("./partials/heroSection.html")
+    @include("./partials/aboutSection.html")
+    @include("./partials/howItWorksSection.html")
+    @include("./partials/meetTheChefsSection.html")
+    @include("./partials/ratingSection.html")
+    @include("./partials/advantagesSection.html")
+    @include("./partials/reviewsSection.html")
+    @include("./partials/foodSafetySection.html")
+  </main>
+  @include("./partials/footer.html")
+</body>
+</html>

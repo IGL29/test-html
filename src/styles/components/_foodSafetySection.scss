@@ -1,0 +1,30 @@
+.food-safety {
+  background-color: $lightGrayishCyanAF9;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  &__wrap-content {
+    flex: 1 1 46%;
+  }
+
+  &__background {
+    flex: 1 1 41%;
+    background-image: url("img/image-13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 96px;
+    height: 438px;
+  }
+}
+
+.wrap-content {
+  &__title {
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,9 @@
+@mixin font-Avenir($weight) {
+  font-family: "Avenir", sans-serif;
+  font-weight: $weight;
+}
+
+@mixin font-Roboto($weight) {
+  font-family: "Roboto", sans-serif;
+  font-weight: $weight;
+}

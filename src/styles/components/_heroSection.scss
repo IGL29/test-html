@@ -1,0 +1,25 @@
+.hero {
+  background-image: url("img/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__container {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-size: 100px;
+    color: $white;
+    line-height: 1.2;
+  }
+
+  &__button {
+    min-width: 246px;
+    background-color: $darkCyan;
+    border-radius: 4px;
+  }
+}

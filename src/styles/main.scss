@@ -1,0 +1,19 @@
+// shared
+@import "vendor";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "templates";
+@import "settings";
+
+// components
+@import "components/header";
+@import "components/heroSection";
+@import "components/aboutSection";
+@import "components/howItWorksSection";
+@import "components/meetTheChefsSection";
+@import "components/ratingSection";
+@import "components/advantagesSection";
+@import "components/reviewsSection";
+@import "components/foodSafetySection";
+@import "components/footer";

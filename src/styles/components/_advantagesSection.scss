@@ -1,0 +1,15 @@
+.advantages {
+  background-color: $lightGrayishCyan8F9;
+  &__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  &__title {
+    margin-bottom: 51px;
+  }
+
+  &__list-ol {
+    max-width: 542px;
+  }
+}
